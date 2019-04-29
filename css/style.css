@@ -1,0 +1,9 @@
+﻿.cen{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.example{
+    width: 1000px;
+    height: 700px;
+}

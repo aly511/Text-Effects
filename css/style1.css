@@ -1,72 +1,82 @@
 * {
   box-sizing: border-box;
-}
+  /* display:block; */
+  margin:auto;
+  }
 
 :root {
-  --noOfItems: 13;
-}
+  --noOfItems: 13; }
 
 body {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   align-items: center;
-  justify-content: center;
-}
+  justify-content: center; }
 
-h1 {
-  width: 28rem;
-  height: 28rem;
+.ex1 {
+  /* width: 28rem; 480px
+  height: 28rem; */
+  width: 480px; 
+  height: 480px;
   position: relative;
   text-align: center;
   background: radial-gradient(orange, red);
   color: white;
-  border-radius: 50%;
-}
+  border-radius: 50%; }
 
-span {
+.sp1 {
   --units: 1;
   --rotationUnit: calc((1turn / var(--noOfItems)) * var(--units, 1));
+  /* --rotationUnit: calc((1turn /13 ) * var(--units, 1)); */
   position: absolute;
   width: calc(100% - 2rem);
   height: calc(100% - 2rem);
-  top: 1rem;
-  left: 1rem;
+  top: 10px;
+  left: 10px;
   transform: rotate(var(--rotationUnit));
-  transform-origin: center;
-}
-span:nth-child(2) {
-  --units: 2;
-}
-span:nth-child(3) {
-  --units: 3;
-}
-span:nth-child(4) {
-  --units: 4;
-}
-span:nth-child(5) {
-  --units: 5;
-}
-span:nth-child(6) {
-  --units: 6;
-}
-span:nth-child(7) {
-  --units: 7;
-}
-span:nth-child(8) {
-  --units: 8;
-}
-span:nth-child(9) {
-  --units: 9;
-}
-span:nth-child(10) {
-  --units: 10;
-}
-span:nth-child(11) {
-  --units: 11;
-}
-span:nth-child(12) {
-  --units: 12;
-}
-span:nth-child(13) {
-  --units: 13;
-}
+  /* transform:rotate() */
+  transform-origin: center; }
+
+.sp1:nth-child(2) {
+    --units: 2;  
+  /* transform:rotate(.2,.5,.8,.3); */
+   }
+
+.sp1:nth-child(3) {
+  --units: 3; }
+
+.sp1:nth-child(4) {
+  --units: 4; }
+
+.sp1:nth-child(5) {
+  --units: 5; }
+
+.sp1:nth-child(6) {
+  --units: 6; }
+
+.sp1:nth-child(7) {
+  --units: 7; }
+
+.sp1:nth-child(8) {
+  --units: 8; }
+
+.sp1:nth-child(9) {
+  --units: 9; }
+
+.sp1:nth-child(10) {
+  --units: 10; }
+
+.sp1:nth-child(11) {
+  --units: 11; }
+
+.sp1:nth-child(12) {
+  --units: 12; }
+
+.sp1:nth-child(13) {
+  --units: 13; }
+
+/*# sourceMappingURL=ss.css.map */
+/* /////////////////////////////////////////////////////////////////////////////////
+shap2 
+
+ */
